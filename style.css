@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --main-text-color: #CCCCCC;
+    --section-title-color: #FFFFFF;
+    --section-text-color: #757575;
+    --description-color: #AAAAAA;
+    --link-color: #FFFFFF;
+    --hover-color: #333333;
+    --sidenav-bg-color: #222222;
+    --main-bg-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-text-color);
+}
+
+#sidenav {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    background-color: var(--sidenav-bg-color);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+/* Add space at the top */
+.nav-padding {
+    height: 20px;
+    background-color: var(--sidenav-bg-color);
+}
+
+/* Style the navigation links */
+#sidenav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 0px;
+    color: var(--link-color);
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+#sidenav a:hover {
+    background-color: var(--hover-color);
+}
+
+#main {
+    padding-left: 200px;
+    padding-right: 80px;
+    background-color: var(--main-bg-color);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-text-color);
+}
+
+.headertitle {
+    font-size: 70px;
+    padding-top: 30px;
+    color: var(--section-title-color);
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.maintitle {
+    padding: 50px 0px 20px;
+    color: var(--section-title-color);
+    font-size: 50px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+}
+
+.sectiontext {
+    color: var(--section-text-color);
+    font-size: 20px;
+}
+
+
+.sectiontitle {
+
+    padding-top: 50px;
+    color: var(--section-title-color);
+    font-size: 40px;
+
+}
+
+/* Style the description */
+.sectiondescription {
+    color: var(--description-color);
+    font-size: 25px;
+}
+
+/* Style the relevant coursework sub-list items */
+ul {
+    padding-top: 17px;
+    padding-left: 40px;
+}
+
+li {
+    color: var(--section-text-color);
+    font-size: 20px;
+    list-style: disc;
+    padding: 3px 0px;
+}
+
+
+#success {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.skillsgroups {
+
+    background-color: white;
+    width: 100%;
+    padding: 30px 0px;
+    align-items: center;
+
+}
+
+.skillsgroups p {
+    color: black;
+    text-align: center;
+}
+
+.numbers {
+    font-size: 40px;
+}
+
+.successcategory {
+
+    font-size: 25px;
+}
+
+#subpoint {
+    padding-bottom: 10px;
+}
+
+#subdescription2 {
+    padding-top: 20px;
+}
+
+
+.projectscontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.projectimage {
+    width: 400px;
+    height: 250px;
+}
+
+.project {
+    padding: 0 50px;
+    border: 1px solid #ccc;
+}
+
+
+.projecttitle {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.projectdescription {
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contactform {
+    padding-top: 20px;
+}
+
+.inputfield {
+    padding: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.submitbutton {
+
+    padding: 10px 0px;
+
+}
+
+.inputs::placeholder {
+    padding: 0px 5px;
+}
+
+.labeltitles {
+    font-weight: bold;
+}
+
+.inputs {
+    padding: 10px 0px;
+    color: black;
+    border: none;
+}
+
+#submitmessage {
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border: none;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    align-items: center;
+
+}
+
+
+.infotext {
+
+    padding-left: 30px;
+
+}
+
+.logoimg {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Unvisited link */
+.infotext a {
+    color: red;
+}
+
+
+/* Mouse over link */
+.infotext a:hover {
+    color: hotpink;
+}
